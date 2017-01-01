@@ -1,0 +1,6 @@
+TODO: More stuff here
+
+## CONSOLE ACCESS ##
+
+By default, you should be able to access the management console via localhost:9002. The
+default username is admin and the default password is admin.
