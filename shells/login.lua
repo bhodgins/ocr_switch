@@ -38,6 +38,13 @@ function _LOGIN_SHELL.bless(self, params)
 				-- Success!
 				handle:write("\255\252\1")
 				handle:flush()
+
+				local motd_fh = io.open('motd.txt', 'r')
+				local motd_data = motd_fh:read('*all')
+				motd_fh:close()
+
+				handle:write(motd_data)
+
 				params['console'].enter_shell(params['system_config']['data']['console']['default_shell'])
 			else
 

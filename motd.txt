@@ -1,0 +1,14 @@
+
+Welcome to LuaOCR, an Ocranet compatible circuit switching switch. If you
+are reading this, you (or your well respected administrator) may not have
+edited their MOTD file located at motd.txt in the root directory of this
+software package.
+
+Administrators:
+By default the switch is inactive. After configuring this switch, be sure
+to fire up all systems with the following command:
+
+	switch online
+
+If you run into any problems, you may deactivate the switch temporarily
+with the 'switch offline' command.
